@@ -1,16 +1,14 @@
 import Head from "next/head";
 import Link from "next/link";
+import HomeComponent from "../components/home";
 
 const HomePage = () => {
   return (
     <>
       <Head>
-        <title>First Post</title>
+        <title>Digital IT Solution</title>
       </Head>
-      <h1>First Post</h1>
-      <h2>
-        <Link href="/">← Back to home</Link>
-      </h2>
+      <HomeComponent />
     </>
   )
 }
